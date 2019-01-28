@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.sim/sim_1/impl/timing/ALU3_TB_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-311] analyzing module FD16CE_MXILINX_R32we
+INFO: [VRFC 10-311] analyzing module R32we
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,884 @@
+
+*** Running vivado
+    with args -log datapath.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source datapath.tcl
+
+
+****** Vivado v2016.4 (64-bit)
+  **** SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+  **** IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source datapath.tcl -notrace
+Command: synth_design -top datapath -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8336 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:18 ; elapsed = 00:00:40 . Memory (MB): peak = 282.504 ; gain = 73.055
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'datapath' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:48]
+INFO: [Synth 8-3491] module 'IMEM_rom64x32' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Memories/imem_rom_64x32_SimpleExample1.vhd:8' bound to instance 'U0' of component 'IMEM_rom64x32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:213]
+INFO: [Synth 8-638] synthesizing module 'IMEM_rom64x32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Memories/imem_rom_64x32_SimpleExample1.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'IMEM_rom64x32' (1#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Memories/imem_rom_64x32_SimpleExample1.vhd:13]
+INFO: [Synth 8-3491] module 'R32we' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:171' bound to instance 'U1' of component 'R32we' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:214]
+INFO: [Synth 8-638] synthesizing module 'R32we' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:179]
+INFO: [Synth 8-3491] module 'FD16CE_MXILINX_R32we' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:28' bound to instance 'XLXI_1' of component 'FD16CE_MXILINX_R32we' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:192]
+INFO: [Synth 8-638] synthesizing module 'FD16CE_MXILINX_R32we' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:36]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q0' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:49]
+INFO: [Synth 8-638] synthesizing module 'FDCE' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'FDCE' (2#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q1' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:56]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q2' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:63]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q3' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:70]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q4' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:77]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q5' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:84]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q6' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:91]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q7' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:98]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q8' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:105]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q9' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:112]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q10' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:119]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q11' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:126]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q12' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:133]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q13' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:140]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q14' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:147]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q15' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:154]
+INFO: [Synth 8-256] done synthesizing module 'FD16CE_MXILINX_R32we' (3#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:36]
+INFO: [Synth 8-3491] module 'FD16CE_MXILINX_R32we' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:28' bound to instance 'XLXI_2' of component 'FD16CE_MXILINX_R32we' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:199]
+INFO: [Synth 8-256] done synthesizing module 'R32we' (4#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:179]
+INFO: [Synth 8-3491] module 'CNTR_aux' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/CNTR_aux.vhd:30' bound to instance 'U2' of component 'CNTR_aux' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:215]
+INFO: [Synth 8-638] synthesizing module 'CNTR_aux' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/CNTR_aux.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'CNTR_aux' (5#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/CNTR_aux.vhd:37]
+INFO: [Synth 8-3491] module 'CNTR_comb' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/CNTR_comb.vhd:32' bound to instance 'U3' of component 'CNTR_comb' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:216]
+INFO: [Synth 8-638] synthesizing module 'CNTR_comb' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/CNTR_comb.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'CNTR_comb' (6#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/CNTR_comb.vhd:47]
+INFO: [Synth 8-3491] module 'EXTsz' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:32' bound to instance 'U4' of component 'EXTsz' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:217]
+INFO: [Synth 8-638] synthesizing module 'EXTsz' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'EXTsz' (7#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:38]
+INFO: [Synth 8-3491] module 'CNTR_fsm' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/CNTR_fsm.vhd:32' bound to instance 'U5' of component 'CNTR_fsm' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:218]
+INFO: [Synth 8-638] synthesizing module 'CNTR_fsm' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/CNTR_fsm.vhd:46]
+INFO: [Synth 8-226] default block is never used [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/CNTR_fsm.vhd:95]
+INFO: [Synth 8-256] done synthesizing module 'CNTR_fsm' (8#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/CNTR_fsm.vhd:46]
+INFO: [Synth 8-3491] module 'regfile' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:5' bound to instance 'U6' of component 'regfile' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'regfile' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'regfile' (9#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:19]
+INFO: [Synth 8-3491] module 'R32we' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:171' bound to instance 'U7' of component 'R32we' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:220]
+INFO: [Synth 8-3491] module 'ADD' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/ADD.vhd:33' bound to instance 'U8' of component 'ADD' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:221]
+INFO: [Synth 8-638] synthesizing module 'ADD' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/ADD.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'ADD' (10#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/ADD.vhd:39]
+INFO: [Synth 8-3491] module 'R32' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:171' bound to instance 'U9' of component 'R32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:222]
+INFO: [Synth 8-638] synthesizing module 'R32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:178]
+INFO: [Synth 8-3491] module 'FD16CE_MXILINX_R32' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:28' bound to instance 'XLXI_1' of component 'FD16CE_MXILINX_R32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:198]
+INFO: [Synth 8-638] synthesizing module 'FD16CE_MXILINX_R32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:36]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q0' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:49]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q1' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:56]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q2' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:63]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q3' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:70]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q4' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:77]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q5' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:84]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q6' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:91]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q7' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:98]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q8' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:105]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q9' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:112]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q10' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:119]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q11' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:126]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q12' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:133]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q13' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:140]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q14' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:147]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-3491] module 'FDCE' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:3748' bound to instance 'I_Q15' of component 'FDCE' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:154]
+INFO: [Synth 8-256] done synthesizing module 'FD16CE_MXILINX_R32' (11#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:36]
+INFO: [Synth 8-3491] module 'FD16CE_MXILINX_R32' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:28' bound to instance 'XLXI_2' of component 'FD16CE_MXILINX_R32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:205]
+INFO: [Synth 8-3491] module 'VCC' declared at 'C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:44693' bound to instance 'XLXI_6' of component 'VCC' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:212]
+INFO: [Synth 8-638] synthesizing module 'VCC' [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-256] done synthesizing module 'VCC' (12#1) [C:/Xilinx/Vivado/2016.4/scripts/rt/data/unisim_comp.v:44693]
+INFO: [Synth 8-256] done synthesizing module 'R32' (13#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:178]
+INFO: [Synth 8-3491] module 'R32' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:171' bound to instance 'U10' of component 'R32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:223]
+INFO: [Synth 8-3491] module 'R32' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:171' bound to instance 'U11' of component 'R32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:224]
+INFO: [Synth 8-3491] module 'R32' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:171' bound to instance 'U12' of component 'R32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:225]
+INFO: [Synth 8-3491] module 'mux_2in1_5bit' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/mux_2in1_5bit.vhd:32' bound to instance 'U13' of component 'mux_2in1_5bit' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:226]
+INFO: [Synth 8-638] synthesizing module 'mux_2in1_5bit' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/mux_2in1_5bit.vhd:39]
+INFO: [Synth 8-226] default block is never used [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/mux_2in1_5bit.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'mux_2in1_5bit' (14#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/mux_2in1_5bit.vhd:39]
+INFO: [Synth 8-3491] module 'SL2' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/SL2.vhd:30' bound to instance 'U14' of component 'SL2' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:227]
+INFO: [Synth 8-638] synthesizing module 'SL2' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/SL2.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'SL2' (15#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/SL2.vhd:35]
+INFO: [Synth 8-3491] module 'ADD' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/ADD.vhd:33' bound to instance 'U15' of component 'ADD' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:228]
+INFO: [Synth 8-3491] module 'R32' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:171' bound to instance 'U16' of component 'R32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:229]
+INFO: [Synth 8-3491] module 'ALU3' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/ALU3.vhd:32' bound to instance 'U17' of component 'ALU3' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+INFO: [Synth 8-638] synthesizing module 'ALU3' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/ALU3.vhd:44]
+INFO: [Synth 8-226] default block is never used [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/ALU3.vhd:134]
+INFO: [Synth 8-256] done synthesizing module 'ALU3' (16#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/ALU3.vhd:44]
+INFO: [Synth 8-3491] module 'R32' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:171' bound to instance 'U18' of component 'R32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:231]
+INFO: [Synth 8-3491] module 'R32' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:171' bound to instance 'U19' of component 'R32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:232]
+INFO: [Synth 8-3491] module 'R32we' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32we.vhf:171' bound to instance 'U20' of component 'R32we' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:233]
+INFO: [Synth 8-3491] module 'BUS32_aux' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/BUS32_aux.vhd:30' bound to instance 'U21' of component 'BUS32_aux' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:234]
+INFO: [Synth 8-638] synthesizing module 'BUS32_aux' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/BUS32_aux.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'BUS32_aux' (17#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/BUS32_aux.vhd:36]
+INFO: [Synth 8-3491] module 'DMEM_blockram32x32' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Memories/dmem_ram_32x32.vhd:9' bound to instance 'U22' of component 'DMEM_blockram32x32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:235]
+INFO: [Synth 8-638] synthesizing module 'DMEM_blockram32x32' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Memories/dmem_ram_32x32.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'DMEM_blockram32x32' (18#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Memories/dmem_ram_32x32.vhd:18]
+INFO: [Synth 8-3491] module 'mux_3to1_32x' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/MUX_3to1_32x.vhd:11' bound to instance 'U23' of component 'mux_3to1_32x' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:238]
+INFO: [Synth 8-638] synthesizing module 'mux_3to1_32x' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/MUX_3to1_32x.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'mux_3to1_32x' (19#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/MUX_3to1_32x.vhd:21]
+INFO: [Synth 8-3491] module 'BUS32_aux' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/BUS32_aux.vhd:30' bound to instance 'U24' of component 'BUS32_aux' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:239]
+INFO: [Synth 8-3491] module 'mux_3to1_32x' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/MUX_3to1_32x.vhd:11' bound to instance 'U25' of component 'mux_3to1_32x' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:240]
+INFO: [Synth 8-3491] module 'BUS32_aux' declared at 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/Datapath/BUS32_aux.vhd:30' bound to instance 'U26' of component 'BUS32_aux' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:241]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net BIN[0] with 1st driver pin 'datapath:/U25/O[0]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:241]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net BIN[0] with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:241]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net BIN[0] is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:241]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net WE with 1st driver pin 'datapath:/U17/Zero' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:214]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net WE with 2nd driver pin 'VCC' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:214]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net WE is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:214]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Bus_W[0] with 1st driver pin 'datapath:/U25/O[0]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:219]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Bus_W[0] with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:219]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Bus_W[0] is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:219]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (20#1) [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:48]
+WARNING: [Synth 8-3331] design SL2 has unconnected port I[31]
+WARNING: [Synth 8-3331] design SL2 has unconnected port I[30]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 319.922 ; gain = 110.473
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[31] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[30] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[29] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[28] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[27] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[26] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[25] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[24] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[23] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[22] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[21] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[20] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[19] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[18] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[17] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[16] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[15] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[14] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[13] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[12] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[11] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[10] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[9] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[8] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[7] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[6] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+WARNING: [Synth 8-3295] tying undriven pin U17:Bus_B[5] to constant 0 [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/datapath.vhd:230]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:23 ; elapsed = 00:00:45 . Memory (MB): peak = 319.922 ; gain = 110.473
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/constrs_1/imports/regfile_sources/constraints.xdc]
+Finished Parsing XDC File [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/constrs_1/imports/regfile_sources/constraints.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.286 . Memory (MB): peak = 643.199 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:59 ; elapsed = 00:01:26 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:59 ; elapsed = 00:01:27 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:59 ; elapsed = 00:01:27 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "Branch" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Jump" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'CNTR_fsm'
+INFO: [Synth 8-5544] ROM "RF_write" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "DMEM_write" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "MAR_write" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "IR_write" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "PC_write" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "next_state" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/ALU3.vhd:94]
+INFO: [Synth 8-5545] ROM "Zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                              000 |                              000
+                      s1 |                              001 |                              001
+                     s2a |                              010 |                              010
+                     s4c |                              011 |                              111
+                     s2b |                              100 |                              011
+                      s3 |                              101 |                              100
+                     s4a |                              110 |                              101
+                     s4b |                              111 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'CNTR_fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:01 ; elapsed = 00:01:28 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
++---RAMs : 
+	             1024 Bit         RAMs := 2     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	  64 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 6     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 2     
+	   7 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	  40 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 4     
+	   7 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module datapath 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module IMEM_rom64x32 
+Detailed RTL Component Info : 
++---Muxes : 
+	  64 Input     32 Bit        Muxes := 1     
+Module CNTR_comb 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   6 Input      2 Bit        Muxes := 3     
+	   6 Input      1 Bit        Muxes := 4     
+	   7 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 3     
+Module EXTsz 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module CNTR_fsm 
+Detailed RTL Component Info : 
++---Muxes : 
+	  40 Input      3 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 5     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
++---RAMs : 
+	             1024 Bit         RAMs := 1     
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module ADD 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module mux_2in1_5bit 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module ALU3 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module DMEM_blockram32x32 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
++---RAMs : 
+	             1024 Bit         RAMs := 1     
+Module mux_3to1_32x 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[31] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[30] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[29] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[28] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[27] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[26] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[25] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[24] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[23] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[22] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[21] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[20] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[19] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[18] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[17] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[16] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[15] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[14] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[13] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[12] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[11] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[10] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[9] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[8] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[7] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[6] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[5] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[4] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[3] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[2] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[1] driven by constant 0
+WARNING: [Synth 8-3917] design datapath has port bus_W_out[0] driven by constant 0
+INFO: [Synth 8-5784] Optimized 32 bits of RAM "U6/RAM_reg" due to constant propagation. Old ram width 32 bits, new ram width 0 bits.
+INFO: [Synth 8-5784] Optimized 32 bits of RAM "U6/RAM_reg" due to constant propagation. Old ram width 32 bits, new ram width 0 bits.
+WARNING: [Synth 8-5785] Removed RAM "U6/RAM_reg" due to constant propagation. Write data stuck at zero 
+INFO: [Synth 8-5784] Optimized 0 bits of RAM "U22/RAM_reg" due to constant propagation. Old ram width 32 bits, new ram width 32 bits.
+WARNING: [Synth 8-5785] Removed RAM "U6/RAM_reg" due to constant propagation. Write data stuck at zero 
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U1/XLXI_1/I_Q10 )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U1/XLXI_1/I_Q7 )
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q0) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q1) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q2) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q3) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q4) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q5) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q6) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q7) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q8) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q9) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q10) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q11) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q12) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q13) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q14) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_1/I_Q15) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q0) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q1) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q2) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q3) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q4) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q5) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q6) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q7) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q8) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q9) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q10) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q11) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q12) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q13) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q14) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U1/XLXI_2/I_Q15) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[31]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[30]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[29]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[28]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[27]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[26]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[25]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[24]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[23]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[22]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[21]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[20]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[19]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[18]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[17]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[16]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[14]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[13]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[12]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[11]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[10]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[9]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[8]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[7]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[6]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[5]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[4]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[3]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[2]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[1]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'U4//O[0]' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/test_project/EXTsz.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net out3 with 1st driver pin 'i_0/out3' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/CNTR_fsm.vhd:76]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net out3 with 2nd driver pin 'VCC' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/CNTR_fsm.vhd:76]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net out3 is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/CNTR_fsm.vhd:76]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[31]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[31]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[30]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[30]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[29]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[29]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[28]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[28]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[27]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[27]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[26]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[26]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[25]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[25]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[24]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[24]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[23]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[23]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[22]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[22]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[21]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[21]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[20]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[20]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[19]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[19]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[18]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[18]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[17]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'i_1/U6/Bus_A_reg[17]/Q' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+INFO: [Common 17-14] Message 'Synth 8-3352' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[16]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[15]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[14]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[13]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[12]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[11]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[10]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[9]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[8]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[7]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[6]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[5]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[4]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[3]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[2]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[1]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_A_reg[0]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:44]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[31]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[30]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[29]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[28]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[27]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[26]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[25]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[24]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[23]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[22]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[21]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[20]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[19]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[18]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[17]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[16]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[15]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[14]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[13]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[12]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[11]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[10]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[9]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[8]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[7]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[6]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[5]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[4]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[3]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[2]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[1]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U6/Bus_B_reg[0]) is unused and will be removed from module datapath.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd:45]
+WARNING: [Synth 8-3332] Sequential element (U10/XLXI_1/I_Q0) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U10/XLXI_1/I_Q1) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U10/XLXI_1/I_Q2) is unused and will be removed from module datapath.
+WARNING: [Synth 8-3332] Sequential element (U10/XLXI_1/I_Q3) is unused and will be removed from module datapath.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/ergasia/R32.vhf:49]
+INFO: [Common 17-14] Message 'Synth 8-5559' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:03 ; elapsed = 00:01:31 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:44 ; elapsed = 00:02:13 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:44 ; elapsed = 00:02:13 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:44 ; elapsed = 00:02:13 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:46 ; elapsed = 00:02:15 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:46 ; elapsed = 00:02:15 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:46 ; elapsed = 00:02:15 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:46 ; elapsed = 00:02:15 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:46 ; elapsed = 00:02:16 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:46 ; elapsed = 00:02:16 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |    30|
+|4     |LUT3   |     2|
+|5     |FDCE   |    67|
+|6     |IBUF   |     2|
+|7     |OBUF   |   108|
++------+-------+------+
+
+Report Instance Areas: 
++------+-----------+-----------------------+------+
+|      |Instance   |Module                 |Cells |
++------+-----------+-----------------------+------+
+|1     |top        |                       |   218|
+|2     |  U5       |CNTR_fsm               |     5|
+|3     |  U7       |R32we                  |    61|
+|4     |    XLXI_1 |FD16CE_MXILINX_R32we   |    29|
+|5     |    XLXI_2 |FD16CE_MXILINX_R32we_1 |    32|
+|6     |  U8       |ADD                    |     9|
+|7     |  U9       |R32                    |    32|
+|8     |    XLXI_1 |FD16CE_MXILINX_R32     |    16|
+|9     |    XLXI_2 |FD16CE_MXILINX_R32_0   |    16|
++------+-----------+-----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:46 ; elapsed = 00:02:16 . Memory (MB): peak = 643.199 ; gain = 433.750
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 780 critical warnings and 354 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:00 ; elapsed = 00:01:22 . Memory (MB): peak = 643.199 ; gain = 110.473
+Synthesis Optimization Complete : Time (s): cpu = 00:01:47 ; elapsed = 00:02:16 . Memory (MB): peak = 643.199 ; gain = 433.750
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+157 Infos, 163 Warnings, 200 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:45 ; elapsed = 00:01:57 . Memory (MB): peak = 643.199 ; gain = 433.750
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.runs/synth_1/datapath.dcp' has been generated.
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.147 . Memory (MB): peak = 643.199 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 30 17:34:21 2017...

@@ -1,0 +1,15 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.sim/sim_1/synth/timing/CNTR_comb_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ADD
+INFO: [VRFC 10-311] analyzing module CNTR_fsm
+INFO: [VRFC 10-311] analyzing module FD16CE_MXILINX_R32
+INFO: [VRFC 10-311] analyzing module FD16CE_MXILINX_R32_0
+INFO: [VRFC 10-311] analyzing module FD16CE_MXILINX_R32we
+INFO: [VRFC 10-311] analyzing module FD16CE_MXILINX_R32we_1
+INFO: [VRFC 10-311] analyzing module R32
+INFO: [VRFC 10-311] analyzing module R32we
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/CNTR_comb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CNTR_comb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sim_1/imports/regfile_sources/CNTR_comb_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity CNTR_comb_tb

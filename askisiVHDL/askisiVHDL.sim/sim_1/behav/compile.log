@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sources_1/imports/regfile_sources/regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity regfile
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.srcs/sim_1/imports/regfile_sources/tb_regfile.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity tb_regfile

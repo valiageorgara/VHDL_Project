@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../askisiVHDL.srcs/sources_1/imports/regfile_sources/ALU3.vhd"
+vhdl xil_defaultlib  "../../../../askisiVHDL.srcs/sim_1/imports/regfile_sources/ALU3_TB.vhd"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Aug 30 20:13:04 2017
+# Process ID: 10516
+# Current directory: C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.sim/sim_1/impl/timing
+# Command line: wbtcv.exe -mode batch -source C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.sim/sim_1/impl/timing/xsim.dir/ALU3_TB_time_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.sim/sim_1/impl/timing/webtalk.log
+# Journal file: C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.sim/sim_1/impl/timing\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.sim/sim_1/impl/timing/xsim.dir/ALU3_TB_time_impl/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/Valia/Downloads/5o/VHDL/ergasia/askisiVHDL/askisiVHDL.sim/sim_1/impl/timing/xsim.dir/ALU3_TB_time_impl/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Aug 30 20:13:09 2017. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2016.4/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Wed Aug 30 20:13:09 2017...

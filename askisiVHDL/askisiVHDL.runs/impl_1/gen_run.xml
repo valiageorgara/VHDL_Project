@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg484-1" LaunchTime="1504103502">
+  <File Type="PWROPT-DRC" Name="datapath_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="datapath_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="datapath_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="datapath_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="datapath.tcl"/>
+  <File Type="OPT-HWDEF" Name="datapath.hwdef"/>
+  <File Type="RDI-RDI" Name="datapath.vdi"/>
+  <File Type="OPT-DCP" Name="datapath_opt.dcp"/>
+  <File Type="OPT-DRC" Name="datapath_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="datapath_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="datapath_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="datapath_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="datapath_placed.dcp"/>
+  <File Type="PLACE-IO" Name="datapath_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="datapath_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="datapath_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="datapath_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="datapath_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="datapath_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="datapath_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="datapath_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="datapath_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="datapath_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="datapath_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="datapath_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="datapath_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="datapath_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="datapath_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="datapath_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="datapath_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="datapath_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="datapath.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="datapath_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="datapath.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="datapath_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="datapath.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="datapath_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="datapath.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="datapath_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="datapath_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="datapath_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="datapath_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="datapath_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="datapath_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="datapath_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="datapath_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="datapath_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="datapath_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="datapath_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="datapath_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="datapath_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="datapath_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="datapath_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="datapath.bit"/>
+  <File Type="BITSTR-RBT" Name="datapath.rbt"/>
+  <File Type="BITSTR-NKY" Name="datapath.nky"/>
+  <File Type="BITSTR-BMM" Name="datapath_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="datapath.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="datapath.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/Datapath/SL2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Complementary Design Files v3/Datapath/SL2.vhd"/>
+        <Attr Name="ImportTime" Val="1260979970"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/regfile_sources/regfile.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../regfile_sources/regfile.vhd"/>
+        <Attr Name="ImportTime" Val="1480605986"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ergasia/R32we.vhf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../R32we.vhf"/>
+        <Attr Name="ImportTime" Val="1484311278"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ergasia/R32.vhf">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../R32.vhf"/>
+        <Attr Name="ImportTime" Val="1484311278"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Datapath/MUX_3to1_32x.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Complementary Design Files v3/Datapath/MUX_3to1_32x.vhd"/>
+        <Attr Name="ImportTime" Val="1260978974"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test_project/mux_2in1_5bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DI_Chalvatzaras_Athanasios_1115201200191/project/test_project/mux_2in1_5bit.vhd"/>
+        <Attr Name="ImportTime" Val="1452986438"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Memories/imem_rom_64x32_SimpleExample1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Complementary Design Files v3/Memories/imem_rom_64x32_SimpleExample1.vhd"/>
+        <Attr Name="ImportTime" Val="1292582106"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test_project/EXTsz.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DI_Chalvatzaras_Athanasios_1115201200191/project/test_project/EXTsz.vhd"/>
+        <Attr Name="ImportTime" Val="1458842864"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Memories/dmem_ram_32x32.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Complementary Design Files v3/Memories/dmem_ram_32x32.vhd"/>
+        <Attr Name="ImportTime" Val="1292581700"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/regfile_sources/CNTR_fsm.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../regfile_sources/CNTR_fsm.vhd"/>
+        <Attr Name="ImportTime" Val="1496303429"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/regfile_sources/CNTR_comb.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../regfile_sources/CNTR_comb.vhd"/>
+        <Attr Name="ImportTime" Val="1496652979"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Datapath/CNTR_aux.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Complementary Design Files v3/Datapath/CNTR_aux.vhd"/>
+        <Attr Name="ImportTime" Val="1260995472"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Datapath/BUS32_aux.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Complementary Design Files v3/Datapath/BUS32_aux.vhd"/>
+        <Attr Name="ImportTime" Val="1261318476"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/regfile_sources/ALU3.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../regfile_sources/ALU3.vhd"/>
+        <Attr Name="ImportTime" Val="1403459905"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test_project/ADD.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DI_Chalvatzaras_Athanasios_1115201200191/project/test_project/ADD.vhd"/>
+        <Attr Name="ImportTime" Val="1458760298"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/ergasia/datapath.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../datapath.vhd"/>
+        <Attr Name="ImportTime" Val="1504100538"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Datapath/bshift_structural.vhdl">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Complementary Design Files v3/Datapath/bshift_structural.vhdl"/>
+        <Attr Name="ImportTime" Val="1166708124"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/test_project/DEC_5to32.vhf">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../DI_Chalvatzaras_Athanasios_1115201200191/project/test_project/DEC_5to32.vhf"/>
+        <Attr Name="ImportTime" Val="1484311280"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="datapath"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/regfile_sources/constraints.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../regfile_sources/constraints.xdc"/>
+        <Attr Name="ImportTime" Val="1480589850"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
